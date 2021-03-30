@@ -51,7 +51,7 @@ All of the code for each chapter is within Jupyter Notebooks.
 
 ## Table of Contents
 
-0. [Preface](Introduction.ipynb)
+0. [Preface](00-Preface.ipynb)
    1. Doing the Other 80% of the Work
    1. Types of Grime
    1. Nomenclature
@@ -63,150 +63,71 @@ All of the code for each chapter is within Jupyter Notebooks.
    1. Data Hygiene
    1. Exercises
 
-1. [Data Ingestion – Tabular Formats](Data_Ingestion-Tabular.ipynb)
+1. [Data Ingestion – Tabular Formats](01-Data_Ingestion-Tabular.ipynb)
    1. Tidying Up
    1. CSV
-      * Sanity Checks
-      * The Good, The Bad, and The Textual Data
    1. Spreadsheets Considered Harmful
    1. SQL RDBMS
-      * Massaging Data Types
-      * Repeating in R
-      * Where SQL Goes Wrong (And How to Notice It)
    1. Other formats
-      * HDF5 and NetCDF-4
-      * SQLite
-      * Apache Parquet
    1. Data Frames
-      * Spark/Scala
-      * Panda and Derived Wrappers
-      * Vaex
-      * Data Frames in R (Tidyverse)
-      * Data Frames in R (data.table)
-      * Bash for Fun
    1. Exercises
-      * Tidy Data from Excel
-      * Tidy Data from SQL
    1. Denouement
 
-2. [Data Ingestion – Hierarchical Formats](Data_Ingestion-Hierarchical.ipynb)
+2. [Data Ingestion – Hierarchical Formats](02-Data_Ingestion-Hierarchical.ipynb)
    1. JSON
-      * NaN Handling and Data Types
-      * JSON Lines
-      * GeoJSON
-      * Tidy Geography
-      * JSON Schema
    1. XML
-      * User Records
-      * Keyhole Markup Language
    1. Configuration Files
-      * INI and Flat Custom Formats
-      * TOML
-      * Yet Another Markup Language
    1. NoSQL Databases
-      * Document-Oriented Databases
-      * Key/Value Stores
    1. Denouement
 
-3. [Data Ingestion – Repurposing Data Sources](Data_Ingestion-Other.ipynb)
+3. [Data Ingestion – Repurposing Data Sources](03-Data_Ingestion-Other.ipynb)
    1. Web Scraping
-      * HTML Tables
-      * Non-Tabular Data
-      * Command-Line Scraping
    1. Portable Document Format
    1. Image Formats
-      * Pixel Statistics
-      * Channel Manipulation
-      * Metadata
    1. Binary Serialized Data Structures
    1. Custom Text Formats
-      * A Structured Log
-      * Character Encodings
    1. Exercises
-      * Enhancing the NPY Parser
-      * Scaping Web Traffic
    1. Denouement
 
-4. [Anomaly Detection](Anomaly_Detection.ipynb)
+4. [Anomaly Detection](04-Anomaly_Detection.ipynb)
    1. Missing data
-      * SQL
-      * Hierarchical Formats
-      * Sentinels
    1. Miscoded Data
    1. Fixed Bounds
    1. Outliers
-      * Z-Score
-      * Interquartile Range
    1. Multivariate Outliers
    1. Exercises
-      * A Famous Experiment
-      * Misspelled Words
    1. Denouement
 
-5. [Data Quality](Data_Quality.ipynb)
+5. [Data Quality](05-Data_Quality.ipynb)
    1. Missing Data
    1. Biasing Trends
-      * Understanding Bias
-      * Internally Detectable
-      * Comparison to Baselines
    1. Benford's Law
    1. Class Imbalance
    1. Normalization and Scaling
-      * Applying a Machine Learning Model
-      * Scaling Techniques
-      * Factor and Sample Weighting
    1. Cyclicity and Autocorrelation
-      * Domain Knowledge Cycles
-      * Discovered Cycles
    1. Bespoke Validation
-      * Collation Validation
-      * Transcription Validation
    1. Exercises
-      * Data Characterization
-      * Oversampled Polls
    1. Denouement
 
-6. [Value Imputation](Value_Imputation.ipynb)
+6. [Value Imputation](06-Value_Imputation.ipynb)
    1. Typical-Value Imputation
-      * Typical Tabular Data
-      * Locality Imputation
    1. Trend Imputation
-      * Types of Trends
-      * A Larger Coarse Time Series
-      * Non-Temporal Trends
    1. Sampling
-      * Undersampling
-      * Oversampling
    1. Exercises
-      * Alternate Trend Imputation
-      * Balancing Multiple Features
    1. Denouement
 
-
-7. [Feature Engineering](Feature_Engineering.ipynb)
+7. [Feature Engineering](07-Feature_Engineering.ipynb)
    1. Date/time fields
-      * Creating Datetimes
-      * Imposing Regularity
-      * Duplicated Timestamps
    1. String fields
-      * Fuzzy Matching
-      * Explicit Categories
    1. String Vectors
    1. Decompositions
-      * Rotation and Whitening
-      * Dimensionality Reduction
-      * Visualization
    1. Quantization and Binarization
    1. One-Hot Encoding
    1. Polynomial Features
-      * Generating Synthetic Features
-      * Feature Selection
    1. Exercises
-      * Intermittent Occurrences
-      * Characterizing Levels
    1. Denouement
 
-8. [Closure](Closure.ipynb)
+8. [Closure](08-Closure.ipynb)
    1. What You Know
    1. What You Don't Know (Yet)
 
