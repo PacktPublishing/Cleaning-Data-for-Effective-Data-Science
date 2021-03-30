@@ -1,0 +1,21 @@
+  • Missing data in the Favorite Color field should be substituted with the string <missing>.
+  • Student ages should be between 9 and 14, and all other values are considered missing data.
+  • Some colors are numerically coded, but should be dealiased. The mapping is:
+
+                            Number     Color      Number    Color
+                               1       beige          6     alabaster
+                               2       eggshell       7     sandcastle
+                               3       seafoam        8     chartreuse
+                               4       mint           9     sepia
+                               5       cream          10    lemon
+
+
+Using the small test data set is a good way to test your code. But try also manually adding more
+rows with similar, or different, problems in them, and see how well your code produces a reasonable
+result.
+
+
+
+
+                                                  7
+

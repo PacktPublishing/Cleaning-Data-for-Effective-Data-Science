@@ -1,0 +1,6 @@
+Tegnsett eller tegnkoding er det som i datamaskiner 
+definerer hvilket lesbart symbol som representeres av et gitt 
+heltall. Foruten Unicode finnes de nordiske bokstavene ÄÅÆÖØ 
+og äåæöø (i den rekkefølgen) i følgende tegnsett: ISO-8859-1, 
+ISO-8859-4, ISO-8859-9, ISO-8859-10, ISO-8859-14, ISO-8859-15 
+og ISO-8859-16.

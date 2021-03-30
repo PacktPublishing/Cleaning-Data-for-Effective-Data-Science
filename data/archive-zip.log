@@ -1,0 +1,570 @@
+zipinfo output:
+$ZIP = bless( {
+  "versionNeededToExtract" => 0,
+  "numberOfCentralDirectories" => 1,
+  "centralDirectoryOffsetWRTStartingDiskNumber" => 360,
+  "fileName" => "",
+  "centralDirectorySize" => 76,
+  "writeCentralDirectoryOffset" => 0,
+  "diskNumber" => 0,
+  "eocdOffset" => 0,
+  "versionMadeBy" => 0,
+  "diskNumberWithStartOfCentralDirectory" => 0,
+  "desiredZip64Mode" => 0,
+  "zip64" => 0,
+  "zipfileComment" => "",
+  "members" => [],
+  "numberOfCentralDirectoriesOnThisDisk" => 1,
+  "writeEOCDOffset" => 0
+}, 'Archive::Zip::Archive' );
+
+Found EOCD at 436 (0x1b4)
+
+Found central directory for member #1 at 360
+$CDMEMBER1 = bless( {
+  "compressedSize" => 300,
+  "versionNeededToExtract" => 20,
+  "password" => undef,
+  "desiredCompressionLevel" => 0,
+  "externalFileName" => "(/tmp/testin-QOwQH.zip)",
+  "localHeaderRelativeOffset" => 0,
+  "localExtraField" => "",
+  "versionMadeBy" => 20,
+  "internalFileAttributes" => 0,
+  "eocdCrc32" => 2889301810,
+  "zip64" => 0,
+  "archiveZip64" => 0,
+  "cdExtraField" => "",
+  "crc32" => 2889301810,
+  "diskNumberStart" => 0,
+  "possibleEocdOffset" => 0,
+  "desiredCompressionMethod" => 0,
+  "compressionMethod" => 0,
+  "dataOffset" => 0,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "externalFileAttributes" => 2176188416,
+  "crc32c" => -1,
+  "lastModFileDateTime" => 1345061049,
+  "fileName" => "testdir/ZUEmTgCKVc/testing.txt",
+  "fileComment" => "",
+  "uncompressedSize" => 300,
+  "bitFlag" => 0,
+  "desiredZip64Mode" => 0,
+  "fileAttributeFormat" => 3
+}, 'Archive::Zip::ZipFileMember' );
+
+
+$LHMEMBER1 = bless( {
+  "compressedSize" => 300,
+  "versionNeededToExtract" => 20,
+  "password" => undef,
+  "desiredCompressionLevel" => 0,
+  "externalFileName" => "(/tmp/testin-QOwQH.zip)",
+  "localHeaderRelativeOffset" => 0,
+  "localExtraField" => "",
+  "versionMadeBy" => 20,
+  "internalFileAttributes" => 0,
+  "eocdCrc32" => 2889301810,
+  "zip64" => 0,
+  "archiveZip64" => 0,
+  "cdExtraField" => "",
+  "crc32" => 2889301810,
+  "diskNumberStart" => 0,
+  "possibleEocdOffset" => 0,
+  "desiredCompressionMethod" => 0,
+  "compressionMethod" => 0,
+  "dataOffset" => 60,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "externalFileAttributes" => 2176188416,
+  "crc32c" => -1,
+  "lastModFileDateTime" => 1345061049,
+  "fileName" => "testdir/ZUEmTgCKVc/testing.txt",
+  "fileComment" => "",
+  "uncompressedSize" => 300,
+  "bitFlag" => 0,
+  "desiredZip64Mode" => 0,
+  "fileAttributeFormat" => 3
+}, 'Archive::Zip::ZipFileMember' );
+
+End of member: 304, CD at 360
+
+ziptest output:
+ Length    Size         Last Modified         CRC-32  Name
+-------- --------  ------------------------  -------- ----
+     300      300  Sun Jan 12 00:05:50 2020  ac373f32 testdir/ZUEmTgCKVc/testing.txt
+All CRCs check OK
+zipinfo output on t/data/zip64.zip:
+$ZIP = bless( {
+  "numberOfCentralDirectoriesOnThisDisk" => 1,
+  "eocdOffset" => 0,
+  "diskNumberWithStartOfCentralDirectory" => 0,
+  "diskNumber" => 0,
+  "numberOfCentralDirectories" => 1,
+  "fileName" => "",
+  "writeCentralDirectoryOffset" => 0,
+  "desiredZip64Mode" => 0,
+  "members" => [],
+  "zip64" => 1,
+  "writeEOCDOffset" => 0,
+  "centralDirectoryOffsetWRTStartingDiskNumber" => 72,
+  "versionMadeBy" => 45,
+  "zipfileComment" => "",
+  "centralDirectorySize" => 72,
+  "versionNeededToExtract" => 45
+}, 'Archive::Zip::Archive' );
+
+Found EOCD at 144 (0x90)
+
+Found central directory for member #1 at 72
+$CDMEMBER1 = bless( {
+  "localHeaderRelativeOffset" => 0,
+  "possibleEocdOffset" => 0,
+  "versionNeededToExtract" => 45,
+  "lastModFileDateTime" => 1091204144,
+  "fileComment" => "",
+  "versionMadeBy" => 45,
+  "bitFlag" => 0,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "fileAttributeFormat" => 3,
+  "eocdCrc32" => 1778378622,
+  "crc32c" => -1,
+  "cdExtraField" => "",
+  "internalFileAttributes" => 0,
+  "crc32" => 1778378622,
+  "desiredZip64Mode" => 0,
+  "diskNumberStart" => 0,
+  "fileName" => "README",
+  "uncompressedSize" => 36,
+  "externalFileName" => "(t/data/zip64.zip)",
+  "compressedSize" => 36,
+  "archiveZip64" => 1,
+  "dataOffset" => 0,
+  "localExtraField" => "",
+  "desiredCompressionMethod" => 8,
+  "compressionMethod" => 8,
+  "desiredCompressionLevel" => -1,
+  "zip64" => 1,
+  "externalFileAttributes" => 2175008768,
+  "password" => undef
+}, 'Archive::Zip::ZipFileMember' );
+
+
+$LHMEMBER1 = bless( {
+  "localHeaderRelativeOffset" => 0,
+  "possibleEocdOffset" => 0,
+  "versionNeededToExtract" => 20,
+  "lastModFileDateTime" => 1091204144,
+  "fileComment" => "",
+  "versionMadeBy" => 45,
+  "bitFlag" => 0,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "fileAttributeFormat" => 3,
+  "eocdCrc32" => 1778378622,
+  "crc32c" => -1,
+  "cdExtraField" => "",
+  "internalFileAttributes" => 0,
+  "crc32" => 1778378622,
+  "desiredZip64Mode" => 0,
+  "diskNumberStart" => 0,
+  "fileName" => "README",
+  "uncompressedSize" => 36,
+  "externalFileName" => "(t/data/zip64.zip)",
+  "compressedSize" => 36,
+  "archiveZip64" => 1,
+  "dataOffset" => 36,
+  "localExtraField" => "",
+  "desiredCompressionMethod" => 8,
+  "compressionMethod" => 8,
+  "desiredCompressionLevel" => -1,
+  "zip64" => 1,
+  "externalFileAttributes" => 2175008768,
+  "password" => undef
+}, 'Archive::Zip::ZipFileMember' );
+
+End of member: 40, CD at 72
+
+ziptest output on t/data/zip64.zip:
+ Length    Size         Last Modified         CRC-32  Name
+-------- --------  ------------------------  -------- ----
+      36       36  Fri Aug 10 14:33:32 2012  69ffe77e README
+All CRCs check OK
+zipinfo output on t/data/zip64-infozip.zip:
+$ZIP = bless( {
+  "diskNumberWithStartOfCentralDirectory" => 0,
+  "eocdOffset" => 0,
+  "centralDirectorySize" => 47,
+  "zip64" => 1,
+  "diskNumber" => 0,
+  "fileName" => "",
+  "desiredZip64Mode" => 0,
+  "numberOfCentralDirectoriesOnThisDisk" => 1,
+  "members" => [],
+  "writeCentralDirectoryOffset" => 0,
+  "versionNeededToExtract" => 45,
+  "centralDirectoryOffsetWRTStartingDiskNumber" => 4131,
+  "zipfileComment" => "",
+  "writeEOCDOffset" => 0,
+  "versionMadeBy" => 798,
+  "numberOfCentralDirectories" => 1
+}, 'Archive::Zip::Archive' );
+
+Found EOCD at 4178 (0x1052)
+
+Found central directory for member #1 at 4131
+$CDMEMBER1 = bless( {
+  "versionNeededToExtract" => 45,
+  "versionMadeBy" => 30,
+  "localExtraField" => "",
+  "password" => undef,
+  "desiredCompressionLevel" => -1,
+  "externalFileName" => "(t/data/zip64-infozip.zip)",
+  "externalFileAttributes" => 293601280,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "localHeaderRelativeOffset" => 0,
+  "archiveZip64" => 1,
+  "dataOffset" => 0,
+  "desiredZip64Mode" => 0,
+  "compressedSize" => 4080,
+  "fileComment" => "",
+  "compressionMethod" => 8,
+  "cdExtraField" => "",
+  "uncompressedSize" => 4194304,
+  "lastModFileDateTime" => 1325364070,
+  "crc32c" => -1,
+  "internalFileAttributes" => 0,
+  "diskNumberStart" => 0,
+  "zip64" => 0,
+  "possibleEocdOffset" => 0,
+  "bitFlag" => 0,
+  "fileName" => "-",
+  "eocdCrc32" => 289882218,
+  "crc32" => 289882218,
+  "fileAttributeFormat" => 3,
+  "desiredCompressionMethod" => 8
+}, 'Archive::Zip::ZipFileMember' );
+
+
+$LHMEMBER1 = bless( {
+  "versionNeededToExtract" => 45,
+  "versionMadeBy" => 30,
+  "localExtraField" => "",
+  "password" => undef,
+  "desiredCompressionLevel" => -1,
+  "externalFileName" => "(t/data/zip64-infozip.zip)",
+  "externalFileAttributes" => 293601280,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "localHeaderRelativeOffset" => 0,
+  "archiveZip64" => 1,
+  "dataOffset" => 51,
+  "desiredZip64Mode" => 0,
+  "compressedSize" => 4080,
+  "fileComment" => "",
+  "compressionMethod" => 8,
+  "cdExtraField" => "",
+  "uncompressedSize" => 4194304,
+  "lastModFileDateTime" => 1325364070,
+  "crc32c" => -1,
+  "internalFileAttributes" => 0,
+  "diskNumberStart" => 0,
+  "zip64" => 1,
+  "possibleEocdOffset" => 0,
+  "bitFlag" => 0,
+  "fileName" => "-",
+  "eocdCrc32" => 289882218,
+  "crc32" => 289882218,
+  "fileAttributeFormat" => 3,
+  "desiredCompressionMethod" => 8
+}, 'Archive::Zip::ZipFileMember' );
+
+End of member: 4084, CD at 4131
+
+ziptest output on t/data/zip64-infozip.zip:
+ Length    Size         Last Modified         CRC-32  Name
+-------- --------  ------------------------  -------- ----
+ 4194304     4080  Wed Jul 31 14:27:12 2019  1147406a -
+All CRCs check OK
+zipinfo output on t/data/zip64-iocz.zip:
+$ZIP = bless( {
+  "centralDirectorySize" => 78,
+  "numberOfCentralDirectories" => 1,
+  "fileName" => "",
+  "writeCentralDirectoryOffset" => 0,
+  "diskNumberWithStartOfCentralDirectory" => 0,
+  "zip64" => 1,
+  "writeEOCDOffset" => 0,
+  "versionMadeBy" => 45,
+  "zipfileComment" => "",
+  "centralDirectoryOffsetWRTStartingDiskNumber" => 4166,
+  "members" => [],
+  "desiredZip64Mode" => 0,
+  "diskNumber" => 0,
+  "versionNeededToExtract" => 813,
+  "eocdOffset" => 0,
+  "numberOfCentralDirectoriesOnThisDisk" => 1
+}, 'Archive::Zip::Archive' );
+
+Found EOCD at 4244 (0x1094)
+
+Found central directory for member #1 at 4166
+$CDMEMBER1 = bless( {
+  "zip64" => 1,
+  "compressedSize" => 4080,
+  "possibleEocdOffset" => 0,
+  "uncompressedSize" => 4194304,
+  "desiredCompressionMethod" => 8,
+  "internalFileAttributes" => 0,
+  "localExtraField" => "",
+  "cdExtraField" => "",
+  "compressionMethod" => 8,
+  "dataOffset" => 0,
+  "crc32" => 289882218,
+  "externalFileAttributes" => 0,
+  "versionMadeBy" => 45,
+  "fileName" => "",
+  "bitFlag" => 8,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "fileComment" => "",
+  "fileAttributeFormat" => 3,
+  "desiredCompressionLevel" => -1,
+  "diskNumberStart" => 0,
+  "eocdCrc32" => 289882218,
+  "crc32c" => -1,
+  "archiveZip64" => 1,
+  "versionNeededToExtract" => 45,
+  "localHeaderRelativeOffset" => 0,
+  "externalFileName" => "(t/data/zip64-iocz.zip)",
+  "desiredZip64Mode" => 0,
+  "lastModFileDateTime" => 1325364353,
+  "password" => undef
+}, 'Archive::Zip::ZipFileMember' );
+
+
+$LHMEMBER1 = bless( {
+  "zip64" => 1,
+  "compressedSize" => 4080,
+  "possibleEocdOffset" => 0,
+  "uncompressedSize" => 4194304,
+  "desiredCompressionMethod" => 8,
+  "internalFileAttributes" => 0,
+  "localExtraField" => "",
+  "cdExtraField" => "",
+  "compressionMethod" => 8,
+  "dataOffset" => 62,
+  "crc32" => 289882218,
+  "externalFileAttributes" => 0,
+  "versionMadeBy" => 45,
+  "fileName" => "",
+  "bitFlag" => 8,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "fileComment" => "",
+  "fileAttributeFormat" => 3,
+  "desiredCompressionLevel" => -1,
+  "diskNumberStart" => 0,
+  "eocdCrc32" => 289882218,
+  "crc32c" => -1,
+  "archiveZip64" => 1,
+  "versionNeededToExtract" => 45,
+  "localHeaderRelativeOffset" => 0,
+  "externalFileName" => "(t/data/zip64-iocz.zip)",
+  "desiredZip64Mode" => 0,
+  "lastModFileDateTime" => 1325364353,
+  "password" => undef
+}, 'Archive::Zip::ZipFileMember' );
+
+End of member: 4084, CD at 4166
+
+ziptest output on t/data/zip64-iocz.zip:
+ Length    Size         Last Modified         CRC-32  Name
+-------- --------  ------------------------  -------- ----
+ 4194304     4080  Wed Jul 31 14:36:02 2019  1147406a 
+All CRCs check OK
+zipinfo output on t/data/zip64-azeocd.zip:
+$ZIP = bless( {
+  "centralDirectorySize" => 50,
+  "zip64" => 1,
+  "numberOfCentralDirectories" => 1,
+  "eocdOffset" => 0,
+  "versionMadeBy" => 45,
+  "desiredZip64Mode" => 0,
+  "diskNumberWithStartOfCentralDirectory" => 0,
+  "centralDirectoryOffsetWRTStartingDiskNumber" => 38,
+  "fileName" => "",
+  "diskNumber" => 0,
+  "numberOfCentralDirectoriesOnThisDisk" => 1,
+  "zipfileComment" => "",
+  "members" => [],
+  "writeEOCDOffset" => 0,
+  "versionNeededToExtract" => 45,
+  "writeCentralDirectoryOffset" => 0
+}, 'Archive::Zip::Archive' );
+
+Found EOCD at 88 (0x58)
+
+Found central directory for member #1 at 38
+$CDMEMBER1 = bless( {
+  "password" => undef,
+  "lastModFileDateTime" => 1325883762,
+  "archiveZip64" => 1,
+  "diskNumberStart" => 0,
+  "cdExtraField" => "",
+  "uncompressedSize" => 4,
+  "bitFlag" => 0,
+  "desiredCompressionMethod" => 0,
+  "fileAttributeFormat" => 3,
+  "zip64" => 0,
+  "localHeaderRelativeOffset" => 0,
+  "desiredZip64Mode" => 0,
+  "fileComment" => "",
+  "crc32c" => -1,
+  "possibleEocdOffset" => 0,
+  "externalFileAttributes" => 2176188416,
+  "externalFileName" => "(t/data/zip64-azeocd.zip)",
+  "dataOffset" => 0,
+  "fileName" => "test",
+  "localExtraField" => "",
+  "versionNeededToExtract" => 20,
+  "eocdCrc32" => 3632233996,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "compressedSize" => 4,
+  "compressionMethod" => 0,
+  "internalFileAttributes" => 0,
+  "desiredCompressionLevel" => 0,
+  "versionMadeBy" => 20,
+  "crc32" => 3632233996
+}, 'Archive::Zip::ZipFileMember' );
+
+
+$LHMEMBER1 = bless( {
+  "password" => undef,
+  "lastModFileDateTime" => 1325883762,
+  "archiveZip64" => 1,
+  "diskNumberStart" => 0,
+  "cdExtraField" => "",
+  "uncompressedSize" => 4,
+  "bitFlag" => 0,
+  "desiredCompressionMethod" => 0,
+  "fileAttributeFormat" => 3,
+  "zip64" => 0,
+  "localHeaderRelativeOffset" => 0,
+  "desiredZip64Mode" => 0,
+  "fileComment" => "",
+  "crc32c" => -1,
+  "possibleEocdOffset" => 0,
+  "externalFileAttributes" => 2176188416,
+  "externalFileName" => "(t/data/zip64-azeocd.zip)",
+  "dataOffset" => 34,
+  "fileName" => "test",
+  "localExtraField" => "",
+  "versionNeededToExtract" => 20,
+  "eocdCrc32" => 3632233996,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "compressedSize" => 4,
+  "compressionMethod" => 0,
+  "internalFileAttributes" => 0,
+  "desiredCompressionLevel" => 0,
+  "versionMadeBy" => 20,
+  "crc32" => 3632233996
+}, 'Archive::Zip::ZipFileMember' );
+
+End of member: 8, CD at 38
+
+ziptest output on t/data/zip64-azeocd.zip:
+ Length    Size         Last Modified         CRC-32  Name
+-------- --------  ------------------------  -------- ----
+       4        4  Wed Aug  7 12:11:36 2019  d87f7e0c test
+All CRCs check OK
+zipinfo output on t/data/zip64-azheaders.zip:
+$ZIP = bless( {
+  "eocdOffset" => 0,
+  "diskNumberWithStartOfCentralDirectory" => 0,
+  "members" => [],
+  "centralDirectoryOffsetWRTStartingDiskNumber" => 58,
+  "versionMadeBy" => 45,
+  "versionNeededToExtract" => 45,
+  "zipfileComment" => "",
+  "zip64" => 1,
+  "numberOfCentralDirectories" => 1,
+  "desiredZip64Mode" => 0,
+  "writeEOCDOffset" => 0,
+  "writeCentralDirectoryOffset" => 0,
+  "centralDirectorySize" => 62,
+  "diskNumber" => 0,
+  "numberOfCentralDirectoriesOnThisDisk" => 1,
+  "fileName" => ""
+}, 'Archive::Zip::Archive' );
+
+Found EOCD at 120 (0x78)
+
+Found central directory for member #1 at 58
+$CDMEMBER1 = bless( {
+  "fileName" => "test",
+  "localHeaderRelativeOffset" => 0,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "externalFileAttributes" => 2176188416,
+  "internalFileAttributes" => 0,
+  "zip64" => 1,
+  "desiredCompressionMethod" => 0,
+  "compressionMethod" => 0,
+  "versionMadeBy" => 45,
+  "bitFlag" => 0,
+  "versionNeededToExtract" => 45,
+  "fileAttributeFormat" => 3,
+  "crc32c" => -1,
+  "password" => undef,
+  "compressedSize" => 4,
+  "cdExtraField" => "",
+  "fileComment" => "",
+  "localExtraField" => "",
+  "possibleEocdOffset" => 0,
+  "desiredZip64Mode" => 0,
+  "eocdCrc32" => 3632233996,
+  "desiredCompressionLevel" => 0,
+  "externalFileName" => "(t/data/zip64-azheaders.zip)",
+  "uncompressedSize" => 4,
+  "dataOffset" => 0,
+  "lastModFileDateTime" => 1325883770,
+  "diskNumberStart" => 0,
+  "archiveZip64" => 1,
+  "crc32" => 3632233996
+}, 'Archive::Zip::ZipFileMember' );
+
+
+$LHMEMBER1 = bless( {
+  "fileName" => "test",
+  "localHeaderRelativeOffset" => 0,
+  "fh" => $Archive::Zip::BufferedFileHandle,
+  "externalFileAttributes" => 2176188416,
+  "internalFileAttributes" => 0,
+  "zip64" => 1,
+  "desiredCompressionMethod" => 0,
+  "compressionMethod" => 0,
+  "versionMadeBy" => 45,
+  "bitFlag" => 0,
+  "versionNeededToExtract" => 45,
+  "fileAttributeFormat" => 3,
+  "crc32c" => -1,
+  "password" => undef,
+  "compressedSize" => 4,
+  "cdExtraField" => "",
+  "fileComment" => "",
+  "localExtraField" => "",
+  "possibleEocdOffset" => 0,
+  "desiredZip64Mode" => 0,
+  "eocdCrc32" => 3632233996,
+  "desiredCompressionLevel" => 0,
+  "externalFileName" => "(t/data/zip64-azheaders.zip)",
+  "uncompressedSize" => 4,
+  "dataOffset" => 54,
+  "lastModFileDateTime" => 1325883770,
+  "diskNumberStart" => 0,
+  "archiveZip64" => 1,
+  "crc32" => 3632233996
+}, 'Archive::Zip::ZipFileMember' );
+
+End of member: 8, CD at 58
+
+ziptest output on t/data/zip64-azheaders.zip:
+ Length    Size         Last Modified         CRC-32  Name
+-------- --------  ------------------------  -------- ----
+       4        4  Wed Aug  7 12:11:52 2019  d87f7e0c test
+All CRCs check OK

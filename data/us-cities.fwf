@@ -1,0 +1,318 @@
+NAME               POP2019  AREA_KM2
+New York City      8336817  780.9  
+Los Angeles        3979576  1213.9  
+Chicago            2693976  588.7  
+Houston            2320268  1651.1  
+Phoenix            1680992  1340.6  
+Philadelphia       1584064  347.6  
+San Antonio        1547253  1194.0  
+San Diego          1423851  842.3  
+Dallas             1343573  882.9  
+San Jose           1021795  459.7  
+Austin              978908  809.9  
+Jacksonville        911507  1935.8  
+Fort Worth          909585  888.1  
+Columbus            898553  565.9  
+Charlotte           885708  791.0  
+San Francisco       881549  121.5  
+Indianapolis        876384  936.3  
+Seattle             753675  217.0  
+Denver              727211  397.0  
+Washington          705749  158.2  
+Boston              692600  125.1  
+El Paso             681728  665.1  
+Nashville           670820  1232.6  
+Detroit             670031  359.5  
+Oklahoma City       655057  1570.3  
+Portland            654741  345.8  
+Las Vegas           651319  348.1  
+Memphis             651073  822.1  
+Louisville          617638  682.5  
+Baltimore           593490  209.5  
+Milwaukee           590157  249.2  
+Albuquerque         560513  487.4  
+Tucson              548073  597.8  
+Fresno              531576  296.3  
+Mesa                518012  357.2  
+Sacramento          513624  253.6  
+Atlanta             506811  345.8  
+Kansas City         495327  815.8  
+Colorado Springs    478221  506.6  
+Omaha               478192  345.0  
+Raleigh             474069  375.8  
+Miami               467963  93.2  
+Long Beach          462628  130.3  
+Virginia Beach      449974  633.8  
+Oakland             433031  144.8  
+Minneapolis         429606  139.9  
+Tulsa               401190  509.7  
+Tampa               399700  293.7  
+Arlington           398854  248.1  
+New Orleans         390144  438.7  
+Wichita             389938  415.4  
+Bakersfield         384145  385.4  
+Cleveland           381009  201.2  
+Aurora              379289  397.6  
+Anaheim             350365  129.5  
+Honolulu            345064  156.7  
+Santa Ana           332318  70.2  
+Riverside           331360  210.3  
+Corpus Christi      326586  452.2  
+Lexington           323152  734.5  
+Henderson           320189  271.2  
+Stockton            312697  159.8  
+Saint Paul          308096  134.7  
+Cincinnati          303940  200.5  
+St. Louis           300576  160.6  
+Pittsburgh          300286  143.5  
+Greensboro          296710  332.3  
+Lincoln             289102  238.5  
+Anchorage           288000  4420.1
+Plano               287677  185.7  
+Orlando             287442  272.5  
+Irvine              287401  169.9  
+Newark              282011  62.4  
+Durham              278993  284.4  
+Chula Vista         274492  128.5  
+Toledo              272779  209.0  
+Fort Wayne          270402  286.5  
+St. Petersburg      265351  160.1  
+Laredo              262491  261.8  
+Jersey City         262075  38.3  
+Chandler            261165  168.1  
+Madison             259680  199.4  
+Lubbock             258862  322.7  
+Scottsdale          258069  476.3  
+Reno                255601  277.9  
+Buffalo             255284  104.6  
+Gilbert             254114  176.1  
+Glendale            252381  153.1  
+North Las Vegas     251974  253.8  
+Winston–Salem       247945  343.2  
+Chesapeake          244835  876.7  
+Norfolk             242742  138.0  
+Fremont             241110  200.7  
+Garland             239928  147.6  
+Irving              239798  173.5  
+Hialeah             233339  55.7  
+Richmond            230436  154.9  
+Boise               228959  212.6  
+Spokane             222081  177.9  
+Baton Rouge         220236  222.5  
+Tacoma              217827  128.7  
+San Bernardino      215784  159.3  
+Modesto             215196  111.4  
+Fontana             214547  111.4  
+Des Moines          214237  230.2  
+Moreno Valley       213055  132.9  
+Santa Clarita       212979  136.8  
+Fayetteville        211657  382.5  
+Birmingham          209403  378.4  
+Oxnard              208881  69.7  
+Rochester           205695  92.7  
+Port St. Lucie      201846  307.9  
+Grand Rapids        201013  115.0  
+Huntsville          200574  552.7  
+Salt Lake City      200567  288.0  
+Frisco              200490  175.3  
+Yonkers             200370  46.6  
+Amarillo            199371  262.6  
+Glendale            199303  78.7  
+Huntington Beach    199223  69.7  
+McKinney            199177  163.2  
+Montgomery          198525  413.9  
+Augusta             197888  783.5  
+Aurora              197757  116.3  
+Akron               197597  160.6  
+Little Rock         197312  307.4  
+Tempe               195805  103.6  
+Columbus            195769  560.5  
+Overland Park       195494  194.5  
+Grand Prairie       194543  187.3  
+Tallahassee         194500  260.0  
+Cape Coral          194495  273.5  
+Mobile              188720  361.0  
+Knoxville           187603  255.1  
+Shreveport          187112  277.4  
+Worcester           185428  96.9  
+Ontario             185010  129.2  
+Vancouver           184463  121.5  
+Sioux Falls         183793  195.3  
+Chattanooga         182799  370.6  
+Brownsville         182781  343.2  
+Fort Lauderdale     182437  89.6  
+Providence          179883  47.7  
+Newport News        179225  179.0  
+Rancho Cucamonga    177603  103.6  
+Santa Rosa          176753  107.0  
+Peoria              175961  455.1  
+Oceanside           175742  107.0  
+Elk Grove           174775  109.3  
+Salem               174365  125.9  
+Pembroke Pines      173591  85.5  
+Eugene              172622  114.2  
+Garden Grove        171644  46.6  
+Cary                170282  146.3  
+Fort Collins        170243  144.5  
+Corona              169868  102.3  
+Springfield         167882  213.2  
+Jackson             160628  287.5  
+Alexandria          159428  38.8  
+Hayward             159203  117.8  
+Clarksville         158146  254.6  
+Lakewood            157935  111.1  
+Lancaster           157601  244.2  
+Salinas             155465  61.1  
+Palmdale            155079  274.5  
+Hollywood           154817  70.7  
+Springfield         153606  82.6  
+Macon               153159  645.7  
+Kansas City         152960  323.2  
+Sunnyvale           152703  57.0  
+Pomona              151691  59.6  
+Killeen             151666  138.6  
+Escondido           151625  96.1  
+Pasadena            151227  112.7  
+Naperville          148449  100.2  
+Bellevue            148164  86.8  
+Joliet              147344  166.8  
+Murfreesboro        146900  144.8  
+Midland             146038  192.7  
+Rockford            145609  164.5  
+Paterson            145233  21.8  
+Savannah            144464  268.3  
+Bridgeport          144399  41.7  
+Torrance            143592  53.1  
+McAllen             143268  151.3  
+Syracuse            142327  64.7  
+Surprise            141664  279.5  
+Denton              141541  241.9  
+Roseville           141500  111.4  
+Thornton            141464  92.5  
+Miramar             141191  76.1  
+Pasadena            141029  59.6  
+Mesquite            140937  122.2  
+Olathe              140545  157.7  
+Dayton              140407  144.3  
+Carrollton          139248  94.0  
+Waco                139236  230.5  
+Orange              138669  65.8  
+Fullerton           138632  58.0  
+Charleston          137566  282.3  
+West Valley City    135248  91.9  
+Visalia             134605  97.1  
+Hampton             134510  133.4  
+Gainesville         133997  161.4  
+Warren              133943  89.1  
+Coral Springs       133759  61.6  
+Cedar Rapids        133562  183.4  
+Round Rock          133372  92.2  
+Sterling Heights    132438  94.5  
+Kent                132319  87.3  
+Columbia            131674  345.8  
+Santa Clara         130365  47.7  
+New Haven           130250  48.4  
+Stamford            129638  97.4  
+Concord             129295  79.0  
+Elizabeth           129216  31.9  
+Athens              126913  301.5  
+Thousand Oaks       126813  143.0  
+Lafayette           126185  139.3  
+Simi Valley         125613  107.5  
+Topeka              125310  159.3  
+Norman              124880  463.1  
+Fargo               124662  127.7  
+Wilmington          123744  133.6  
+Abilene             123420  276.4  
+Odessa              123334  117.1  
+Columbia            123195  168.3  
+Pearland            122460  119.9  
+Victorville         122385  189.8  
+Hartford            122105  45.1  
+Vallejo             121692  79.5  
+Allentown           121442  45.3  
+Berkeley            121363  27.2  
+Richardson          121323  74.1  
+Arvada              121272  100.0  
+Ann Arbor           119980  72.8  
+Rochester           118935  141.4  
+Cambridge           118927  16.6  
+Sugar Land          118488  88.1  
+Lansing             118210  101.3  
+Evansville          117979  122.5  
+College Station     117911  132.1  
+Fairfield           117133  105.9  
+Clearwater          116946  67.1  
+Beaumont            116825  212.6  
+Independence        116672  201.5  
+Provo               116618  108.0  
+West Jordan         116480  83.7  
+Murrieta            116223  87.0  
+Palm Bay            115552  170.2  
+El Monte            115487  24.9  
+Carlsbad            115382  97.6  
+North Charleston    115382  190.9  
+Temecula            114761  96.6  
+Clovis              114584  62.7  
+Springfield         114230  155.7  
+Meridian            114161  77.2  
+Westminster         113166  82.1  
+Costa Mesa          113003  40.7  
+High Point          112791  143.0  
+Manchester          112673  85.7  
+Pueblo              112361  138.8  
+Lakeland            112136  170.7  
+Pompano Beach       112118  62.2  
+West Palm Beach     111955  142.7  
+Antioch             111502  76.1  
+Everett             111475  86.2  
+Downey              111126  32.1  
+Lowell              110997  35.2  
+Centennial          110937  76.4  
+Elgin               110849  96.9  
+Richmond            110567  78.0  
+Peoria              110417  124.8  
+Broken Arrow        110198  159.8  
+Miami Gardens       110001  47.1  
+Billings            109577  113.2  
+Jurupa Valley       109527  111.1  
+Sandy Springs       109452  97.6  
+Gresham             109381  60.3  
+Lewisville          109212  95.1  
+Hillsboro           109128  64.7  
+Ventura             109106  56.5  
+Greeley             108649  123.8  
+Inglewood           108151  23.6  
+Waterbury           107568  73.8  
+League City         107536  132.6  
+Santa Maria         107263  59.1  
+Tyler               106985  146.6  
+Davie               106306  90.4  
+Lakewood            106300  64.0  
+Daly City           106280  19.7  
+Boulder             105673  64.2  
+Allen               105623  70.2  
+West Covina         105101  41.4  
+Sparks              105006  93.0  
+Wichita Falls       104683  187.0  
+Green Bay           104578  117.6  
+San Mateo           104430  31.3  
+Norwalk             103949  25.1  
+Rialto              103526  57.8  
+Las Cruces          103432  199.2  
+Chico               103301  86.2  
+El Cajon            102708  37.6  
+Burbank             102511  45.1  
+South Bend          102026  107.2  
+Renton              101751  60.6  
+Vista               101638  48.4  
+Davenport           101590  162.9  
+Edinburg            101170  97.4  
+Tuscaloosa          101129  185.7  
+Carmel              101068  123.0  
+Spokane Valley      101060  97.6  
+San Angelo          101004  155.1  
+Vacaville           100670  75.1  
+Clinton             100471  72.8  
+Bend                100421  85.7  
+Woodbridge          100145  60.3  

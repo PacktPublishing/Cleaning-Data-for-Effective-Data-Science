@@ -1,0 +1,47 @@
+name: cleaning3.8
+channels:
+    - intel
+    - conda-forge
+    - r
+    - bioconda
+dependencies:
+    - python=3.8
+    - pip
+    - numpy
+    - matplotlib
+    - pandas=1
+    - r-base
+    - r-essentials 
+    - requests
+    - beautifulsoup4
+    - dask
+    - gensim
+    - h5py
+    - jupyter
+    - jupyterlab
+    - lxml
+    - nltk
+    - numexpr
+    - openpyxl
+    - psycopg2
+    - pyarrow
+    - pymongo
+    - pyreadstat
+    - pytables
+    - rise
+    - scikit-learn
+    - seaborn
+    - seqkit
+    - simplejson
+    - sqlalchemy
+    - tornado
+    - xlrd
+    - pip:
+        - sqlalchemy-utils
+        - vaex
+        - csvkit
+        - imbalanced-learn
+        - Metaphone
+        - fuzzy
+        - rpy2
+        - umap-learn

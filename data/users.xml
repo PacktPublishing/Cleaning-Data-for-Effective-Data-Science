@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<users>
+  <user>
+    <name>David Mertz</name>
+    <password>badpassword</password>
+    <details>
+      <profession employer="KDM" duration="26" units="months">
+      Data Scientist</profession>
+      <telephone>+1 323 863 5571</telephone>
+    </details>
+    <lucky-numbers>
+      <item>12</item>
+      <item>42</item>
+      <item>55</item>
+      <item>87</item>
+    </lucky-numbers>
+  </user>
+  <user> ... </user>
+</users>

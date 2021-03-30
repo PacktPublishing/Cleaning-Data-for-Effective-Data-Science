@@ -1,0 +1,100 @@
+Laser_type_kw     Subtype       Wavelength_nm   Kryptonite_type       candela_per_m2  
+Helium–neon                             632.8   Green                        415.837  
+Helium–neon                             543.5   Green                                 
+Helium–neon                             593.9   Green                        407.308  
+Helium–neon                             611.8   Green                        401.305  
+Helium–neon                            1152.3   Green                        426.012  
+Helium–neon                            1520     Green                                 
+Helium–neon                            3391.3   Green                        444.054  
+Argon                                   454.6   Green                        381.173  
+Argon                                   488     Green                        373.192  
+Argon                                   514.5   Green                        399.851  
+Argon                                   351     Green                                 
+Argon                                   363.8   Green                                 
+Argon                                   457.9   Green                        391.034  
+Argon                                   465.8   Green                        394.33   
+Argon                                   476.5   Green                        383.463  
+Argon                                   472.7   Green                        385.589  
+Argon                                   528.7   Green                                 
+Argon                                   244     Green                        378.221  
+Argon                                   257     Green                        358.725  
+Krypton                                 416     Green                        379.732  
+Krypton                                 530.9   Green                        403.74   
+Krypton                                 568.2   Green                        390.972  
+Krypton                                 647.1   Green                                 
+Krypton                                 676.4   Green                        389.895  
+Krypton                                 752.5   Green                        394.958  
+Krypton                                 799.3   Green                        408.74   
+Nitrogen                                337.1   Green                        383.587  
+CO2                                   10600     Green                        517.485  
+CO2                                    9400     Green                        514.181  
+Excimer           ArF                   193     Green                                 
+Excimer           KrF                   248     Green                                 
+Excimer           XeCL                  308     Green                                 
+Excimer           XeF                   353     Green                        375.566  
+Helium–neon                             632.8   Red                          539.326  
+Helium–neon                             543.5   Red                          558.338  
+Helium–neon                             593.9   Red                          540.423  
+Helium–neon                             611.8   Red                          543.488  
+Helium–neon                            1152.3   Red                          481.843  
+Helium–neon                            1520     Red                          497.592  
+Helium–neon                            3391.3   Red                          409.322  
+Argon                                   454.6   Red                                   
+Argon                                   488     Red                          585.424  
+Argon                                   514.5   Red                          565.285  
+Argon                                   351     Red                                   
+Argon                                   363.8   Red                          603.96   
+Argon                                   457.9   Red                          566.571  
+Argon                                   465.8   Red                                   
+Argon                                   476.5   Red                          585.623  
+Argon                                   472.7   Red                                   
+Argon                                   528.7   Red                          539.04   
+Argon                                   244     Red                          616.328  
+Argon                                   257     Red                          643.566  
+Krypton                                 416     Red                          609.396  
+Krypton                                 530.9   Red                          571.679  
+Krypton                                 568.2   Red                                   
+Krypton                                 647.1   Red                          561.76   
+Krypton                                 676.4   Red                                   
+Krypton                                 752.5   Red                          548.585  
+Krypton                                 799.3   Red                          548.687  
+Nitrogen                                337.1   Red                                   
+CO2                                   10600     Red                          318.05   
+CO2                                    9400     Red                          334.444  
+Excimer           ArF                   193     Red                                   
+Excimer           KrF                   248     Red                          642.474  
+Excimer           XeCL                  308     Red                                   
+Excimer           XeF                   353     Red                          623.357  
+Helium–neon                             632.8   Gold                         627.062  
+Helium–neon                             543.5   Gold                         611.873  
+Helium–neon                             593.9   Gold                         602.521  
+Helium–neon                             611.8   Gold                         624.887  
+Helium–neon                            1152.3   Gold                         616.168  
+Helium–neon                            1520     Gold                         616.262  
+Helium–neon                            3391.3   Gold                         624.755  
+Argon                                   454.6   Gold                         600.96   
+Argon                                   488     Gold                         626.339  
+Argon                                   514.5   Gold                         601.039  
+Argon                                   351     Gold                         620.796  
+Argon                                   363.8   Gold                         617.625  
+Argon                                   457.9   Gold                         619.252  
+Argon                                   465.8   Gold                         611.222  
+Argon                                   476.5   Gold                         608.264  
+Argon                                   472.7   Gold                         615.282  
+Argon                                   528.7   Gold                         626.575  
+Argon                                   244     Gold                                  
+Argon                                   257     Gold                         619.894  
+Krypton                                 416     Gold                                  
+Krypton                                 530.9   Gold                         629.164  
+Krypton                                 568.2   Gold                         622.276  
+Krypton                                 647.1   Gold                                  
+Krypton                                 676.4   Gold                                  
+Krypton                                 752.5   Gold                         616.278  
+Krypton                                 799.3   Gold                         626.522  
+Nitrogen                                337.1   Gold                         608.252  
+CO2                                   10600     Gold                         603.242  
+CO2                                    9400     Gold                                  
+Excimer           ArF                   193     Gold                         611.611  
+Excimer           KrF                   248     Gold                                  
+Excimer           XeCL                  308     Gold                         608.125  
+Excimer           XeF                   353     Gold                                  

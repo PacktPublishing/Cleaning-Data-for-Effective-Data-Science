@@ -1,0 +1,16 @@
+%YAML 1.1
+---
+# YAML can contain comments like this
+name: David
+age: 55
+---
+name: Mei
+age: 50     # Including end-of-line
+---
+name: Juana: ERROR
+age: 47
+...
+---
+name: Adebayo
+age: 58
+...

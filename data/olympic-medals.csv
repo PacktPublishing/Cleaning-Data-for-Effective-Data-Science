@@ -1,0 +1,139 @@
+Name,Abbrev,Gold,Silver,Bronze,Continent,Total,Level
+Soviet Union,URS,838,627,584,Eurasia,2049,High
+United States,USA,2088,1195,1052,North America,4335,High
+United Kingdom,GBR,498,591,505,Europe,1594,High
+France,FRA,378,461,475,Europe,1314,High
+Germany,GER,407,350,454,Europe,1211,High
+Australia,AUS,293,369,413,Oceania,1075,High
+Italy,ITA,460,394,374,Europe,1228,High
+Hungary,HUN,400,308,345,Europe,1053,High
+Sweden,SWE,347,349,325,Europe,1021,High
+Netherlands,NED,212,250,320,Europe,782,Medium
+Romania,ROU,155,187,282,Europe,624,Medium
+Japan,JPN,206,228,270,Asia,704,Medium
+Russia,RUS,192,206,240,Eurasia,638,Medium
+Canada,CAN,154,211,227,North America,592,Medium
+East Germany,GDR,329,271,225,Europe,825,Medium
+Poland,POL,103,173,223,Europe,499,Medium
+Finland,FIN,124,118,209,Europe,451,Medium
+China,CHN,234,252,193,Asia,679,Medium
+West Germany,FRG,143,167,180,Europe,490,Medium
+Brazil,BRA,59,139,174,South America,372,Medium
+Denmark,DEN,147,192,152,Europe,491,Medium
+Belgium,BEL,91,167,150,Europe,408,Medium
+Norway,NOR,194,199,144,Europe,537,Medium
+Switzerland,SUI,73,165,138,Europe,376,Medium
+Bulgaria,BUL,53,142,136,Europe,331,Medium
+"Korea, South",KOR,140,191,135,Asia,466,Medium
+Yugoslavia,YUG,143,174,118,Europe,435,Medium
+Cuba,CUB,160,126,109,North America,395,Medium
+Czechoslovakia,TCH,80,144,105,Europe,329,Medium
+Spain,ESP,92,193,92,Europe,377,Medium
+Unified team of Germany,EUA,68,100,92,Europe,260,Medium
+Argentina,ARG,68,83,88,South America,239,Medium
+Ukraine,UKR,32,38,78,Europe,148,Medium
+Unified team of Soviet states,EUN,92,65,66,Eurasia,223,Medium
+New Zealand,NZL,76,27,61,Oceania,164,Medium
+Belarus,BLR,14,25,53,Europe,92,Moderate
+Greece,GRE,34,62,49,Europe,145,Medium
+Mexico,MEX,14,18,48,North America,80,Moderate
+Austria,AUT,21,81,44,Europe,146,Medium
+Lithuania,LTU,4,4,42,Europe,50,Moderate
+Jamaica,JAM,23,40,39,North America,102,Medium
+South Africa,RSA,24,37,36,Africa,97,Moderate
+Pakistan,PAK,42,45,34,Asia,121,Medium
+India,IND,128,16,34,Asia,178,Medium
+"Korea, North",PRK,10,12,30,Asia,52,Moderate
+Uruguay,URU,44,2,30,South America,76,Moderate
+Nigeria,NGR,19,38,27,Africa,84,Moderate
+Kenya,KEN,26,31,24,Africa,81,Moderate
+Turkey,TUR,37,23,22,Eurasia,82,Moderate
+Iran,IRI,11,15,22,Asia,48,Moderate
+Chile,CHI,3,9,21,South America,33,Moderate
+Estonia,EST,9,9,19,Europe,37,Moderate
+Croatia,CRO,31,30,18,Europe,79,Moderate
+Portugal,POR,4,9,18,Europe,31,Moderate
+Ghana,GHA,0,1,15,Africa,16,Moderate
+Kazakhstan,KAZ,9,16,14,Eurasia,39,Moderate
+Ethiopia,ETH,18,6,14,Africa,38,Moderate
+Serbia,SRB,0,1,14,Europe,15,Moderate
+Taiwan,TPE,2,27,13,Asia,42,Moderate
+Czech Republic,CZE,10,18,13,Europe,41,Moderate
+Indonesia,INA,9,14,12,Oceania,35,Moderate
+Trinidad and Tobago,TRI,1,8,11,North America,20,Moderate
+Slovenia,SLO,4,6,11,Europe,21,Moderate
+Georgia,GEO,5,2,11,Eurasia,18,Moderate
+Mixed teams,ZZX,23,15,10,,48,Moderate
+Egypt,EGY,7,7,10,Africa,24,Moderate
+Mongolia,MGL,2,7,10,Asia,19,Moderate
+Morocco,MAR,6,5,10,Africa,21,Moderate
+Thailand,THA,7,4,10,Asia,21,Moderate
+Russian Empire,RU1,1,7,9,Eurasia,17,Moderate
+Azerbaijan,AZE,4,3,9,Eurasia,16,Moderate
+Slovakia,SVK,10,11,8,Europe,29,Moderate
+Ireland,IRL,8,8,8,Europe,24,Moderate
+Uzbekistan,UZB,4,5,8,Asia,17,Moderate
+Algeria,ALG,4,2,8,Africa,14,Moderate
+Venezuela,VEN,1,2,8,South America,11,Moderate
+Colombia,COL,1,3,7,South America,11,Moderate
+Philippines,PHI,0,2,7,Oceania,9,Low
+Armenia,ARM,1,1,7,Eurasia,9,Low
+Haiti,HAI,0,1,7,North America,8,Low
+Bohemia,BOH,0,1,6,Europe,7,Low
+Bahamas,BAH,9,9,5,North America,23,Moderate
+Australasia,ANZ,20,4,5,Oceania,29,Moderate
+Israel,ISR,1,1,5,Asia,7,Low
+Puerto Rico*,PUR,0,1,5,North America,6,Low
+British West Indies,BWI,0,0,5,North America,5,Low
+Latvia,LAT,2,11,4,Europe,17,Moderate
+Malaysia,MAS,0,3,3,Asia,6,Low
+Moldova,MDA,0,3,3,Europe,6,Low
+Tunisia,TUN,2,2,3,Africa,7,Low
+Iceland,ISL,0,15,2,Europe,17,Moderate
+Uganda,UGA,1,3,2,Africa,6,Low
+Lebanon,LIB,0,2,2,Asia,4,Low
+Costa Rica,CRC,1,1,2,North America,4,Low
+Independent Olympic Participants (1992),IOP,0,1,2,,3,Low
+Kyrgyzstan,KGZ,0,1,2,Asia,3,Low
+Panama,PAN,1,0,2,North America,3,Low
+Qatar,QAT,0,0,2,Asia,2,Low
+Zimbabwe,ZIM,18,4,1,Africa,23,Moderate
+Cameroon,CMR,20,1,1,Africa,22,Moderate
+Dominican Republic,DOM,2,1,1,North America,4,Low
+Syria,SYR,1,1,1,Asia,3,Low
+Saudi Arabia,KSA,0,1,1,Asia,2,Low
+Tajikistan,TJK,0,1,1,Asia,2,Low
+Zambia,ZAM,0,1,1,Africa,2,Low
+Mozambique,MOZ,1,0,1,Africa,2,Low
+Suriname,SUR,1,0,1,South America,2,Low
+Afghanistan,AFG,0,0,1,Asia,1,One
+Barbados,BAR,0,0,1,North America,1,One
+Bermuda*,BER,0,0,1,North America,1,One
+Djibouti,DJI,0,0,1,Africa,1,One
+Eritrea,ERI,0,0,1,Africa,1,One
+Guyana,GUY,0,0,1,South America,1,One
+Iraq,IRQ,0,0,1,Asia,1,One
+Kuwait,KUW,0,0,1,Asia,1,One
+Macedonia,MKD,0,0,1,Europe,1,One
+Mauritius,MRI,0,0,1,Africa,1,One
+Niger,NIG,0,0,1,Africa,1,One
+Togo,TOG,0,0,1,Africa,1,One
+Paraguay,PAR,0,17,0,South America,17,Moderate
+Peru,PER,1,14,0,South America,15,Moderate
+Serbia,SCG,0,14,0,Europe,14,Moderate
+Namibia,NAM,0,4,0,Africa,4,Low
+Singapore,SIN,0,4,0,Asia,4,Low
+Hong Kong*,HKG,1,2,0,Asia,3,Low
+Sri Lanka,SRI,0,2,0,Asia,2,Low
+Tanzania,TAN,0,2,0,Africa,2,Low
+Vietnam,VIE,0,2,0,Asia,2,Low
+Ecuador,ECU,1,1,0,South America,2,Low
+Luxembourg,LUX,1,1,0,Europe,2,Low
+Netherlands Antilles*,AHO,0,1,0,North America,1,One
+Cote d'Ivoire,CIV,0,1,0,Africa,1,One
+Virgin Islands*,ISV,0,1,0,North America,1,One
+Senegal,SEN,0,1,0,Africa,1,One
+Sudan,SUD,0,1,0,Africa,1,One
+Tonga,TGA,0,1,0,Africa,1,One
+Burundi,BDI,1,0,0,Africa,1,One
+United Arab Emirates,UAE,1,0,0,Asia,1,One

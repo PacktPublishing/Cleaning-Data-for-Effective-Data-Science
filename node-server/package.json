@@ -1,0 +1,35 @@
+{
+  "name": "api-server-starter",
+  "version": "1.0.0",
+  "description": "A lightweight starter kit for building a Node-based API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpk68/api-server-starter.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "api-server",
+    "express",
+    "starter",
+    "kit"
+  ],
+  "author": "Rob Kendal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpk68/api-server-starter/issues"
+  },
+  "homepage": "https://github.com/bpk68/api-server-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
+  }
+}

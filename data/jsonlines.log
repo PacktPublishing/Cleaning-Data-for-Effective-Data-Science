@@ -1,0 +1,4 @@
+{"ts":"2020-06-18T10:44:13", "logged_in":{"username":"foo"}, "connection":{"addr":"1.2.3.4","port":5678}}
+{"ts":"2020-06-18T10:44:15", "registered":{"username":"bar","email":"bar@example.com"}, "connection":{"addr":"2.3.4.5","port":6789}}
+{"ts":"2020-06-18T10:44:16", "logged_out":{"username":"foo"}, "connection":{"addr":"1.2.3.4","port":5678}}
+{"ts":"2020-06-18T10:47:22", "registered":{"username":"baz","email":"baz@example.net"}, "connection":{"addr":"3.4.5.6","port":7890}}
