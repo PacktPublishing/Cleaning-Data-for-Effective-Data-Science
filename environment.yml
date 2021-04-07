@@ -47,3 +47,4 @@ dependencies:
         - umap-learn
         - imbalanced-learn
         - toml
+        - pytest
