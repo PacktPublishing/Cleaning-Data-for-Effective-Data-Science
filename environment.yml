@@ -1,6 +1,5 @@
 name: cleaning3.9
 channels:
-    - intel
     - conda-forge
     - r
     - bioconda
@@ -43,7 +42,8 @@ dependencies:
         - rise
         - sqlalchemy
         - sqlalchemy-utils
-        - vaex
+        # Vaex 4.x apparently removes read_csv_and_convert
+        - vaex==3
         - umap-learn
         - imbalanced-learn
         - toml
