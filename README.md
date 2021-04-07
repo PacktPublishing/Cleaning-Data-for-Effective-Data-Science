@@ -6,6 +6,8 @@ published by [Packt](https://www.packtpub.com/?utm_source=github). It contains
 all the supporting project files necessary to work through the book from start
 to finish.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PacktPublishing/Cleaning-Data-for-Effective-Data-Science.git/HEAD)
+
 * **Paperback**: 498 pages
 * **ISBN-13**: 9781801071291
 * **Date Of Publication**: 30 March 2021
