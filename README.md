@@ -141,3 +141,7 @@ All of the code for each chapter is within Jupyter Notebooks.
 * [Clean Code in Python - Second Edition](https://www.packtpub.com/product/clean-code-in-python-second-edition/9781800560215)
 * [Machine Learning Using TensorFlow Cookbook](https://www.packtpub.com/product/machine-learning-using-tensorflow-cookbook/9781800208865)
 * [Pandas 1.x Cookbook - Second Edition](https://www.packtpub.com/product/pandas-1-x-cookbook-second-edition/9781839213106)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801071291">https://packt.link/free-ebook/9781801071291 </a> </p>
